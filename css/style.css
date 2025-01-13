@@ -57,6 +57,7 @@ img {
 }
 
 .logo-header {
+  margin-right: 76px;
   font-family: 'Raleway', sans-serif;
   text-decoration: none;
   color: #4d5ae5;
@@ -107,6 +108,11 @@ img {
 .contacts-link:hover,
 .contacts-link:focus {
   color: #404bbf;
+}
+
+.contacts-list {
+  display: flex;
+  gap: 40px;
 }
 
 /* Hero-section */
