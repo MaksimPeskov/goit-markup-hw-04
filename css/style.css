@@ -47,7 +47,7 @@ img {
 }
 
 .container {
-  max-width: 1158;
+  width: 1158;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -72,12 +72,13 @@ img {
 
 /* #region Header */
 
-.main-header {
+.main-header .container {
   border-bottom: 1px solid #e7e9fc;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header-menu {
-  display: flex;
 }
 
 .header-nav {
@@ -107,6 +108,7 @@ img {
 }
 
 .nav-menu-item {
+  padding: 24px 0;
 }
 
 .header-link {
@@ -127,8 +129,6 @@ img {
 }
 
 .header-contacts {
-  display: flex;
-  gap: 40px;
   font-style: normal;
 }
 
