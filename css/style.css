@@ -73,9 +73,11 @@ img {
 /* #endregion Global */
 
 /* #region Header */
+.main-header {
+  border-bottom: 1px solid #e7e9fc;
+}
 
 .main-header .container {
-  border-bottom: 1px solid #e7e9fc;
   display: flex;
   justify-content: space-between;
 }
