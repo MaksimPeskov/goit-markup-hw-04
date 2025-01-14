@@ -185,16 +185,17 @@ img {
 }
 
 .features-list {
+  margin-bottom: 8px;
   display: flex;
   gap: 24px;
 }
 
 .features-item {
-  width: calc((100% - 20px) / 3);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .features-main-text {
-  margin-bottom: 72px;
+  margin-bottom: 8px;
   color: #2e2f42;
   font-size: 20px;
   line-height: 1.2;
@@ -262,7 +263,7 @@ img {
   padding-bottom: 120px;
 }
 .portfolio-hero-text {
-  margin-bottom: 8px;
+  margin-bottom: 72px;
   color: #2e2f42;
   font-size: 36px;
   line-height: 1.11;
@@ -288,7 +289,7 @@ img {
   border-top: none;
 }
 
-.portfoli0-main-text {
+.portfolio-main-text {
   margin-bottom: 8px;
   color: #2e2f42;
   font-size: 20px;
