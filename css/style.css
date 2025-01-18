@@ -159,6 +159,14 @@ img {
 .hero-section {
   padding: 188px 0;
   background-color: #2e2f42;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-section .container {
@@ -259,7 +267,7 @@ img {
 }
 
 .card-list-item {
-  padding: 32px 0;
+  padding: 32px 16px;
 }
 
 .team-main-text {
@@ -274,6 +282,22 @@ img {
 
 .team-card-text {
   text-align: center;
+  margin-bottom: 8px;
+}
+
+.team-card-social {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-card-social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
 }
 
 /* #endregion Team-section */
@@ -327,7 +351,15 @@ img {
   background-color: #2e2f42;
 }
 
-.logo-footer {
+.footer .container {
+  display: flex;
+  gap: 120px;
+}
+
+.footer-content {
+}
+
+.footer-logo {
   display: inline-block;
   margin-bottom: 16px;
   font-family: 'Raleway', sans-serif;
@@ -347,6 +379,35 @@ img {
 .footer-text {
   max-width: 264px;
   color: #f4f4fd;
+}
+
+.footer-social {
+  width: 208px;
+  height: 80px;
+}
+
+.footer-social-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-social-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
 }
 
 /* #endregion Footer */
